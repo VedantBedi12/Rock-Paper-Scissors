@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: aliceblue;
+    font-size: 20px;
+}
+#choice {
+    height: 100px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#choice-img {
+    object-fit: fill;
+    height: 100px;
+    width:100px;
+    display: flex;
+    border-radius:5px;
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+#choice-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.score-board {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#results {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
