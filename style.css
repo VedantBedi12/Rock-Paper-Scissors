@@ -16,7 +16,7 @@ body {
     color: aliceblue;
     font-size: 20px;
 }
-#choice {
+.choice {
     height: 100px;
     width:100px;
     display: flex;
